@@ -18,6 +18,7 @@ public class Driver {      // creating main class
 		
 		
 		SuperDepartment adminObj = new AdminDepartment();   //  creating  adminObj
+		 // Displaying  AdminDepartment
 		
 		System.out.println(adminObj.departmentName());
 		System.out.println(adminObj.getTodaysWork());
@@ -27,6 +28,7 @@ public class Driver {      // creating main class
 		
 		SuperDepartment hrObj = new HrDepartment();          //  creating  HrObj
 		
+		// Displaying  Hr Department
 		
 		System.out.println(hrObj.departmentName());
 		System.out.println(hrObj.doActivity());
@@ -37,7 +39,7 @@ public class Driver {      // creating main class
 		
 		SuperDepartment techObj = new TechDepartment();       //  creating  techObj
 		
-		
+		// Displaying Tech Department
 		System.out.println(techObj.departmentName());
 		System.out.println(techObj.getTodaysWork());
 		System.out.println(techObj.getWorkDeadline());
